@@ -13,7 +13,7 @@ const Home = () => {
 
   
 
-  const getData = () => {
+const getData = () => {
     fetch("logements.json", {
       headers: {
         "Content-Type": "application/json",
